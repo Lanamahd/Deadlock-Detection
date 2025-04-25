@@ -120,6 +120,7 @@ Make sure the Allocation.csv, Request.csv, and Available.csv files are in the sa
 ## Example Output
 
 ### Case 1: Safe State
+```
 CONSISTENT IN ROWS ACROSS ALLOCATION & REQUEST FILES, AND CONSISTENT IN COLUMNS ACROSS ALL FILES.
 
 Allocation.csv DATA:
@@ -134,14 +135,14 @@ Available.csv DATA:
 2           2           2           1           3
 
 NO DEADLOCK, THE SAFE SEQUENCE IS: P1 -> P2 -> P3 -> ... -> P10
-
+```
 ### Case 2: Deadlock Detected
-
+```
 P4 IS DEADLOCKED.
 P7 IS DEADLOCKED.
 
 DEADLOCK IS DETECTED.
-
+```
 --- 
 
 ## Conclusion
